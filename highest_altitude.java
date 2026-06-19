@@ -1,4 +1,4 @@
-class highest_altitude {
+class Solution{
     public int largestAltitude(int[] gain) {
         int n = gain.length;
         int trip[] = new int[n + 1];
@@ -25,7 +25,7 @@ class highest_altitude {
     }
 }
 
-public class Main {
+public class highest_altitude {
     public static void main(String[] args) {
         Solution sol = new Solution();
 
